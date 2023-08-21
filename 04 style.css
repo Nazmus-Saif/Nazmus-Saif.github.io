@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+.full-body {
+    height: auto;
+    width: 1349px;
+}
+
+/*Navigation bar code starts here*/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/*Box 1*/
+.nav-logo {
+    margin-left: 9px;
+    height: 50px;
+    width: 110px;
+}
+
+.logo {
+    background-image: url("logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+    /*for getting the hand pointer effect while hovering*/
+}
+
+/*Box 2*/
+.nav-addres {
+    margin-left: 15px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+.add-second {
+    font-size: 0.9rem;
+    margin-left: 4px;
+}
+
+/*Box 3*/
+/*to modify the search icon*/
+.nav-search {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    /*for getting the space of option search and search icon evenly*/
+    background-color: #ffcf40;
+    height: 41px;
+    width: 660px;
+    border-radius: 5px;
+}
+
+/*to modify the Option (All)*/
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.search-select:hover {
+    background-color: #D3D3D3;
+}
+
+/*to modify the search input*/
+.search-input {
+    width: 580px;
+    font-size: 0.9rem;
+}
+
+/*to modify the search icon*/
+.search-icon {
+    width: 45px;
+    color: black;
+    display: flex;
+    /*to adjust search icon in center or left right flex is used */
+    /*this align the icon in horizontal center*/
+    justify-content: center;
+    /*to adjust search icon in center*/
+    align-items: center;
+    /*to vertically center*/
+    font-size: 1.25rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    background-color: goldenrod;
+}
+
+.search-icon:active {
+    cursor: auto;
+    /*for changing the cursor movement when click to the button*/
+}
+
+.select-font {
+    margin: 25px;
+    margin-bottom: 18px;
+    color: #0f1111;
+}
+
+.font {
+    background-color: #0f1111;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+/** Box 4 **/
+.nav-signin {
+    margin-left: 20px;
+}
+
+.nav-signin a {
+    text-decoration: none;
+    color: white;
+}
+
+.account {
+    font-size: 0.73rem;
+}
+
+.nav-account {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-return {
+    margin-left: 35px;
+}
+
+.returns1 {
+    font-size: 0.73rem;
+}
+
+.returns2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+/*Panel code starts here*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    margin-left: 4px;
+    font-weight: 550;
+}
+
+.panel-options {
+    display: flex;
+    width: 93%;
+    font-size: 0.85rem;
+}
+
+.panel-option2 {
+    margin-left: 20px;
+}
+
+.panel-option3 {
+    margin-left: 20px;
+}
+
+.panel-option4 {
+    margin-left: 20px;
+}
+
+.panel-option5 {
+    margin-left: 20px;
+}
+
+/*main section code starts here*/
+
+/*main section code ends here*/
+
+/*Footer part code starts here*/
+.panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+.panel1:hover {
+    background-color: #3b4f64;
+    cursor: pointer;
+    /*for getting the hand pointer effect while hovering*/
+}
+
+.panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.p {
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+ul p {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    color: #dddddd;
+}
+
+ul a {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    color: #dddddd;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.panel3 {
+    height: 76px;
+    background-color: #131a22;
+    color: white;
+}
+
+.panel4 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 550;
+}
+
+.terms {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 20px;
+    /*we can use margine here also*/
+    letter-spacing: 0.1px;
+}
+
+.terms a {
+    padding: 0px 6px 0px 6px;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copyright {
+    padding-top: 8px;
+    /*we can use margine here also*/
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/*Sidebar code starts here*/
+.sidebar {
+    background-color: white;
+    height: 100%;
+    width: 365px;
+    transition: all 0.5s;
+    z-index: 2;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    transform: translateX(-375px);
+}
+
+.head {
+    background-color: #232f3e;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.head i {
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+.head:hover {
+    cursor: pointer;
+    /*for getting the hand pointer effect while hovering*/
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+}
+
+.head h2 {
+    font-size: 1.3rem;
+    line-height: 60px;
+}
+
+.content h3 {
+    font-size: 1rem;
+    padding: 20px 25px;
+    color: rgb(39, 39, 39);
+}
+
+.content li {
+    font-size: .9rem;
+}
+
+.content ul div {
+    display: flex;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: rgb(70, 70, 70);
+    padding: 15px 25px;
+    justify-content: space-between;
+}
+
+.line {
+    background-color: #a9a9a9;
+    height: 1px;
+    width: 100%;
+}
+
+.fa-xmark {
+    z-index: 101;
+    top: 15px;
+    left: 380px;
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    display: none;
+    /*when side bar is hide this will also hide with the sidebar*/
+}
+
+.fa-xmark:hover {
+    cursor: pointer;
+    /*for getting the hand pointer effect while hovering*/
+}
+
+.content ul div:hover {
+    background-color: rgb(230, 227, 227);
+}
+
+.black {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateX(-100%);
+}
+
+/* the following part code with related with javascript*/
+.black.active {
+    z-index: 1;
+    width: 100%;
+    transform: translateX(0);
+    /*This moves the overlay back to its original position (0% translation on the X-axis), making it visible.*/
+}
+
+.sidebar.active {
+    transform: translateX(0);
+    /*This moves the overlay back to its original position (0% translation on the X-axis), making it visible under the sidebar*/
+}
+
+.fa-xmark.active {
+    display: inline-block;
+}
+
+/* the above part code with related with javascript*/
