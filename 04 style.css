@@ -206,6 +206,27 @@
 }
 
 /*main section code starts here*/
+main {
+    height: 700px;
+    /* Set the desired height */
+    width: 100%;
+    /* Set the full width */
+    background-color: white;
+    /* Add a background color */
+    box-sizing: border-box;
+    /* Include padding in the total element size */
+    padding: 20px;
+}
+
+.product-section {
+    margin-top: 20px;
+}
+
+.product-section p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+}
 
 /*main section code ends here*/
 
@@ -257,7 +278,8 @@ ul a {
 }
 
 ul a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .panel3 {
