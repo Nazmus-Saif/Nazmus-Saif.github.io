@@ -894,7 +894,7 @@ textarea.input-field {
 \*-----------------------------------*/
 
 /* responsive for 600px screen */
-@media (width: 412px) {
+@media (width: 407px) {
 
   body {
     margin-left: 110px;
