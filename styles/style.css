@@ -898,6 +898,7 @@ textarea.input-field {
 
   body {
     margin-left: 110px;
+    overflow-y: auto;
   }
 
   :root {
